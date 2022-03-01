@@ -36,7 +36,7 @@ function App() {
       const data = await res.json();
       console.log("Questions:", data.payload);
 
-      data.payload.sort((a, b) => (a.question_id > b.question_id ? 1 : -1));
+      data.payload.sort((a, b) => (a.category > b.category ? 1 : -1));
 
       setQuestions(data.payload);
     }
