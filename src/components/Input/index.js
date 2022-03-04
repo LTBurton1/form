@@ -84,10 +84,10 @@ export default function Input() {
       <h2>Question</h2>
       <textarea onChange={e => setQuestion(e.target.value)} rows={5} cols={50} />
       <h2>Answers</h2>
-      <input type="number" onChange={e => setAnswer1(Number(e.target.value))} />
-      <input type="number" onChange={e => setAnswer2(Number(e.target.value))} />
-      <input type="number" onChange={e => setAnswer3(Number(e.target.value))} />
-      <input type="number" onChange={e => setAnswer4(Number(e.target.value))} />
+      <input type="number" step="any" onChange={e => setAnswer1(Number(e.target.value))} />
+      <input type="number" step="any" onChange={e => setAnswer2(Number(e.target.value))} />
+      <input type="number" step="any" onChange={e => setAnswer3(Number(e.target.value))} />
+      <input type="number" step="any" onChange={e => setAnswer4(Number(e.target.value))} />
       <h2>Correct</h2>
       <input type="number" onChange={e => setCorrect(Number(e.target.value))} />
       <br />
