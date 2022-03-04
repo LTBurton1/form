@@ -61,7 +61,7 @@ export default function Input() {
         </optgroup>
         <optgroup label="-- Social --">
           <option value="Travel">Travel</option>
-          <option value="Holidays">Holidays</option>
+          <option value="Holiday">Holiday</option>
           <option value="Drinking">Drinking</option>
           <option value="Eating Out">Eating Out</option>
           <option value="Occasions">Occasions</option>
